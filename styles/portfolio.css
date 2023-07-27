@@ -5,7 +5,7 @@
 
 body {
   text-align: center;
-  background-color: black;
+  background-color: #1b1b1b;
 }
 h2 {
   font-family: var(--default-font-family);
@@ -42,7 +42,22 @@ a {
 
 .heading-index-html {
   padding: 200px 10px 30px 10px;
-  background-image: url(/images/main-foto.png);
+  background-image: url(/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.img-fluid {
+  padding: 0px;
+  margin: 0;
+}
+.conteiner {
+  margin: 30px 0;
+  padding: 0 10px 20px 20px;
+}
+
+@media only screen and (min-widht: 900px) {
+  .heading-index-html {
+    padding: 200px 20px 400px 20px;
+  }
 }
